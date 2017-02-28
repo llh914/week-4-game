@@ -1,0 +1,48 @@
+html {
+	text-align: center;
+	background-image: url("../images/background.png");
+}
+
+p {
+	line-height: 1.5
+}
+
+h1{
+	font-size: 50px;
+	padding: 10px;
+	background: teal;
+	display: inline-block;
+	font-weight: bold;
+	margin: 10px;
+}
+
+#instructions {
+	padding: 10px;
+	background: gold;
+	margin: 10px auto;
+	width: 80%;
+}
+
+#number {
+	background: green;
+	display: inline-block;
+	padding: 10px;
+}
+
+#winLose {
+	background: turquoise;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+}
+
+#scoreboard {
+	background: turquoise;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+}
+
+img {
+	width: 150px;
+}

@@ -1,0 +1,56 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Crystals Collector Game</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Crystals Collecter!</h1>
+		</header>
+
+		<p id="instructions">
+			You will be given a random number at the start of the game.
+			</br></br>
+			There are four crystals below. The value of each crystal is hidden from you until you click on it. By clicking on a crystal you will add a specific amount of points to your total score.
+			</br></br>
+			You win the game by matching your total score to the random number, and you lose the game if your total score exceeds the random number.
+			</br></br>
+			Each time when the game starts, the game will change the values of each crystal.
+		</p>
+
+		<section>
+			<div id="number">
+				<p>Random Number:</p>
+				<span id="randomNumber"></span>
+			</div>
+		</section>
+
+		<section>
+			<div id="winLose">
+				<p> Wins: <span id="wins"></span></p>
+				<p> Losses: <span id="losses"></span></p>
+			</div>
+		</section>
+		
+		<div id="images">
+			<img id="emerald" class="crystal" src="assets/images/emerald.jpg" alt="emerald">
+			<img id="ruby" class="crystal" src="assets/images/ruby.jpg" alt="ruby">
+			<img id="sapphire" class="crystal" src="assets/images/sapphire.png" alt="sapphire">
+			<img id="topaz" class="crystal" src="assets/images/topaz.jpg" alt="topaz">
+		</div>
+
+		<div id="scoreboard">
+			<p> Your total score is</p>
+			<span id="score">0</span>
+		</div>
+
+		
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</body>
+</html>
+
+
