@@ -31,10 +31,12 @@ $(document).ready(function() {
 		if (score === randomNumber) {
 			wins++;
 			$("#wins").text(wins);
+			$("#outcome").text("You Won!!")
 			start();
 		} else if (score > randomNumber) {
 			losses++;
 			$("#losses").text(losses);
+			$("#outcome").text("You Lost")
 			start();
 		}
 	}); 
