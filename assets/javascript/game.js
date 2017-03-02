@@ -12,8 +12,8 @@ $(document).ready(function() {
 	function start() {
 		randomNumber = Math.floor(Math.random() * (120 - 19) + 19);
 		score = 0;
-		$("#score").text(score);
-		$("#randomNumber").text(randomNumber);
+		$("#score").html(score);
+		$("#randomNumber").html(randomNumber);
 		$("#emerald").data("value", getCrystalValue());
 		$("#ruby").data("value", getCrystalValue());
 		$("#sapphire").data("value", getCrystalValue());
@@ -24,19 +24,19 @@ $(document).ready(function() {
 
 	$(".crystal").on("click", function () {
 		score += $(this).data("value");
-		$("#score").text(score);
+		$("#score").html(score);
 
 		console.log(this)
 
 		if (score === randomNumber) {
 			wins++;
-			$("#wins").text(wins);
-			$("#outcome").text("You Won!!")
+			$("#wins").html(wins);
+			$("#outcome").html("You Won!!")
 			start();
 		} else if (score > randomNumber) {
 			losses++;
-			$("#losses").text(losses);
-			$("#outcome").text("You Lost")
+			$("#losses").html(losses);
+			$("#outcome").html("You Lost")
 			start();
 		}
 	}); 

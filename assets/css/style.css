@@ -4,13 +4,13 @@ html {
 }
 
 p {
-	line-height: 1.5
+	line-height: 1.5;
 }
 
 h1{
 	font-size: 50px;
 	padding: 10px;
-	background: teal;
+	background: #bd99ce;
 	display: inline-block;
 	font-weight: bold;
 	margin: 10px;
@@ -18,26 +18,26 @@ h1{
 
 #instructions {
 	padding: 10px;
-	background: gold;
+	background: bisque;
 	margin: 10px auto;
-	width: 80%;
+	width: 50%;
 }
 
 #number {
-	background: green;
+	background: #9bffcd;
 	display: inline-block;
 	padding: 10px;
 }
 
 #winLose {
-	background: turquoise;
+	background: #98cdfb;
 	display: inline-block;
 	padding: 10px;
 	margin: 10px;
 }
 
 #scoreboard {
-	background: turquoise;
+	background: #98cdfb;
 	display: inline-block;
 	padding: 10px;
 	margin: 10px;
